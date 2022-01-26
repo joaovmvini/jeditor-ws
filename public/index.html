@@ -1,0 +1,43 @@
+<html>
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="/jsuites/dist/jsuites.css" type="text/css" />
+<link rel="stylesheet" href="/jsuites/dist/jsuites.layout.css" type="text/css" />
+
+<style>
+    html, body {
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+    
+    }
+
+    .jeditor {
+        position: relative;
+    }
+
+    .user-caret {
+        position: absolute;
+        width: 2px;
+        background: rgb(224, 23, 23);
+        height: 18px;
+    }
+
+    a {
+        text-decoration: none !important;
+        background-color: rgba(224, 23, 23, .28);
+    }
+
+    a.own-selection {
+        text-decoration:  none !important;
+        background-color: transparent !important;
+    }
+</style>
+<div id="editor" style="max-width: 400px; margin-left: 100px; margin-top: 50px;"></div>
+
+<script src="https://cdn.socket.io/4.4.1/socket.io.min.js" integrity="sha384-fKnu0iswBIqkjxrhQCTZ7qlLHOFEgNkRmK2vaO/LbTZSXdJfAu6ewRBdwHPhBo/H" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/jsuites/dist/jsuites.js"></script>
+<script src="/js/editor.js"></script>
+<script src="/js/editorWSclient.js"></script>
+<script src="/js/index.js"></script>
+</html>
